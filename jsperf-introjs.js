@@ -1,9 +1,15 @@
 /*! jsPerf-introjs | (c)2013 tomByrer released mozilla.org/MPL/2.0/ */
 // readies http://jsperf.com/ for intro.js
 ;(function(){
-	//load scripts
+//load scripts
 $.ajax({
 url: "https://rawgithub.com/usablica/intro.js/master/minified/intro.min.js",
+type: "GET",
+dataType: "script",
+cache: true
+});
+$.ajax({
+url: "https://rawgithub.com/tomByrer/jsperf-introjs/master/jsperfdata.js",
 type: "GET",
 dataType: "script",
 cache: true
