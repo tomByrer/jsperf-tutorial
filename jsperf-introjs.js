@@ -30,7 +30,7 @@ success:function(data){	$("head").append("<style>" + data + "</style>"); }
 	fileref=document.createElement("link") //fileref needs to be rebuilt for atleast FF20
   fileref.setAttribute("rel", "stylesheet")
   fileref.setAttribute("type", "text/css")
-  fileref.setAttribute("href", 'btnCorner.css')
+  fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-introjs/master/btnCorner.css')
   document.getElementsByTagName("head")[0].appendChild(fileref)
 
 
