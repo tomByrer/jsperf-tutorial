@@ -37,16 +37,7 @@ $('p:contains("created")')
 // .attr('data-step','3')
 // .attr('data-intro',"User's HTML & JS entry; load libs, build test functions.");
 $('button:contains("Run Tests")')
-.attr('data-step','4')
-.attr('data-intro',"Clicky");
-$('p:contains("created")')
-.attr('data-step','1')
-.attr('data-intro','Age of test, & revision/version number if > 1.');
-$('p:contains("created")')
-.attr('data-step','1')
-.attr('data-intro','Age of test, & revision/version number if > 1.');
-$('p:contains("created")')
-.attr('data-step','1')
-.attr('data-intro','Age of test, & revision/version number if > 1.');
+.attr('data-step','2')
+.attr('data-intro','Clicky');
 
 })();
