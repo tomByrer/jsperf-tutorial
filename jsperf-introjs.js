@@ -33,10 +33,10 @@ $('p:contains("created")')
 $('section#prep-code')
 .attr('data-step','2')
 .attr('data-intro',"User's HTML & JS input; load libs, build test functions.");
-$('div.user-output')
+$('section:contains("Preparation code output")')
 .attr('data-step','3')
 .attr('data-intro',"HTML output, if there is any");
-$('button#Run Tests')
+$('button#run')
 .attr('data-step','4')
 .attr('data-intro','Clicky');
 
