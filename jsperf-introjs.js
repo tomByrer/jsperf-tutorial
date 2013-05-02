@@ -23,7 +23,7 @@ $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="ja
 // inserts data attributes
 // TODO transform into JSON system
 
-$('div:contains("Test Cases")')
+$('a:contains("Test Cases")')
 .attr('data-step','1')
 .attr('data-intro','Link to browse & search others published tests.  Protip: Search before posting; chance your test idea already exists!');
 $('fieldset:nth-child(1)')
@@ -38,9 +38,6 @@ $('input#visible')
 $('textarea#info')
 .attr('data-step','5')
 .attr('data-intro','Good place to link library home pages, blog, StackOverflow answer, bug reports.  Protip: There is no diff, so post version & reasons for changes.');
-$('input#visible')
-.attr('data-step','6')
-.attr('data-intro','Protip: Always uncheck first so you can test before publishing.');
 
 $('div:contains("Preparation")')
 .attr('data-step','7')
@@ -57,7 +54,7 @@ $('div:contains("teardown")')
 $('#tests fieldset:nth-child(2) div:nth-child(2)')
 .attr('data-step','11')
 .attr('data-intro','Protip: short names are better to read in result key.');
-$('#test[1][code]')
+$('textarea#test[1][code]')
 .attr('data-step','12')
 .attr('data-intro','This is what gets looped.  Protip: Keep this code < 5 lines; use Prep HTML entry above for longer scripts.');
 $('.submit')
