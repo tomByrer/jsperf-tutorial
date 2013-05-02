@@ -38,6 +38,16 @@ $('section:contains("Preparation code output")')
 .attr('data-intro',"HTML output, if there is any");
 $('button#run')
 .attr('data-step','4')
-.attr('data-intro','Clicky');
+.attr('data-intro','Clicky, toggles into pause button.');
+$('span#user-agent')  //caption:contains("Testing in")
+.attr('data-step','5')
+.attr('data-intro','User-Agent header');
+
+$('tr')
+.attr('data-step','6')
+.attr('data-intro','Single test');
+$('th')
+.attr('data-step','7')
+.attr('data-intro','Test title used in results.  Click to run only this test.');
 
 })();
