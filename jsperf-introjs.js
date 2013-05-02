@@ -64,8 +64,6 @@ $('.submit')
 .attr('data-step','13')
 .attr('data-intro','Protip: check if you unchecked Published before saving.');
 
-#tests fieldset:nth-child(2) div:nth-child(2)
-
 //test view
 $('p:contains("created")')
 .attr('data-step','1')
