@@ -39,7 +39,7 @@ $('section:contains("Preparation code output")')
 $('button#run')
 .attr('data-step','4')
 .attr('data-position','left')
-.attr('data-intro','Clicky, toggles into pause button.....');
+.attr('data-intro','Clicky, toggles into pause button.........');
 $('span#user-agent')  //caption:contains("Testing in")
 .attr('data-step','5')
 .attr('data-position','top')
@@ -51,6 +51,29 @@ $('tbody')
 .attr('data-intro','Test listing; must be here to run.');
 $('#title-1 div')
 .attr('data-step','7')
-.attr('data-intro','Test title used in results.  Click to run only this test.');
+.attr('data-intro','Test title used in results.  Click to run only this test.  Protip: Keep short.');
+$('tr:nth-child(1) pre')
+.attr('data-step','8')
+.attr('data-intro','The actual javascript to run.  Protip: Keep below 5 lines; use a function or 2.');
+$('#results-1')
+.attr('data-step','9')
+.attr('data-intro','"Ready" if test not ran recently, results when ran (but go with browserscope average).');
+
+$('div#bs-results')
+.attr('data-step','10')
+.attr('data-intro','Averaged output of all tests on this page.  Mouse over bars for details.');
+$('#charts a:nth-child(6)')
+.attr('data-step','11')
+.attr('data-intro','Select "Table" for only the numbers.');
+
+$('section p a')
+.attr('data-step','12')
+.attr('data-intro','Click to fork.');
+$('ul')
+.attr('data-step','13')
+.attr('data-intro','Past & new forks, current is highlighted.');
+$('#comment-form h2')
+.attr('data-step','14')
+.attr('data-intro','Read & post feedback & notes here.');
 
 })();
