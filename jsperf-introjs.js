@@ -38,13 +38,16 @@ $('section:contains("Preparation code output")')
 .attr('data-intro',"HTML output, if there is any");
 $('button#run')
 .attr('data-step','4')
+.attr('data-position','left')
 .attr('data-intro','Clicky, toggles into pause button.');
 $('span#user-agent')  //caption:contains("Testing in")
 .attr('data-step','5')
+.attr('data-position','top')
 .attr('data-intro','User-Agent header');
 
 $('tbody')
 .attr('data-step','6')
+.attr('data-position','top')
 .attr('data-intro','Test listing; must be here to run.');
 $('tr#title-1')
 .attr('data-step','7')
