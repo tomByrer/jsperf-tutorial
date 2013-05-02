@@ -30,14 +30,14 @@ $('div:contains("Preparation")')
 $('p:contains("created")')
 .attr('data-step','1')
 .attr('data-intro','Age of test, & revision/version number if > 1.');
-// $('section:contains("<h2>Preparation code</h2>")')
-// .attr('data-step','2')
-// .attr('data-intro',"User's HTML & JS entry; load libs, build test functions.");
-// $('section:contains("<h2>Preparation code output</h2>")')
-// .attr('data-step','3')
-// .attr('data-intro',"User's HTML & JS entry; load libs, build test functions.");
-$('button' '#Run Tests')
+$('section#prep-code')
 .attr('data-step','2')
+.attr('data-intro',"User's HTML & JS input; load libs, build test functions.");
+$('div.user-output')
+.attr('data-step','3')
+.attr('data-intro',"HTML output, if there is any");
+$('button#Run Tests')
+.attr('data-step','4')
 .attr('data-intro','Clicky');
 
 })();
