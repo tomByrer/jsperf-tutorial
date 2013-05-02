@@ -8,12 +8,6 @@ type: "GET",
 dataType: "script",
 cache: true
 });
-$.ajax({
-url: "https://rawgithub.com/tomByrer/jsperf-introjs/master/jsperfdata.js",
-type: "GET",
-dataType: "script",
-cache: true
-});
 var fileref=document.createElement("link")
 fileref.setAttribute("rel", "stylesheet")
 fileref.setAttribute("type", "text/css")
@@ -27,12 +21,14 @@ document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
 // inserts data attributes
-// TODO transform into JSON system
-var eleName = 'div';
-var containsName = 'Preparation';
-var findName = eleName + ':contains("' + containsName + '")';
-$(findName)
+// TODO transform into JSON system  findToTag = ""; //elementName + ':contains("' + containsText + '")';
+$('div:contains("Preparation")')
 .attr('data-step','1')
 .attr('data-intro','In here, load libraries, set up global variables & methods, enter large test scripts as a function.  Ran once at start of test.');
+
+//test view
+$('p:contains("created")')
+.attr('data-step','1')
+.attr('data-intro','Age of test, & revision/version number if > 1.');
 
 })();
