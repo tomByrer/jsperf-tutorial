@@ -38,8 +38,7 @@ $('section:contains("Preparation code output")')
 .attr('data-intro',"HTML output, if there is any");
 $('button#run')
 .attr('data-step','4')
-.attr('data-position','left')
-.attr('data-intro','Clicky, toggles into pause button............');
+.attr('data-intro','Clicky, toggles into pause button.');
 $('span#user-agent')  //caption:contains("Testing in")
 .attr('data-step','5')
 .attr('data-position','top')
@@ -57,7 +56,6 @@ $('tr:nth-child(1) pre')
 .attr('data-intro','The actual javascript to run.  Protip: Keep below 5 lines; use a function or 2.');
 $('#results-1')
 .attr('data-step','9')
-.attr('data-position','left')
 .attr('data-intro','"Ready" if test not ran recently, or results afterwards (but go with browserscope average).');
 
 $('div#bs-results')
@@ -69,12 +67,15 @@ $('#charts a:nth-child(6)')
 
 $('#charts a:nth-child(6)')
 .attr('data-step','12')
+.attr('data-intro','Select Table to get numberic results.  Protip: copy/paste to archive results.');
+$('section:contains("Revisions") p a')
+.attr('data-step','13')
 .attr('data-intro','Click to fork.');
 $('ul')
-.attr('data-step','13')
+.attr('data-step','14')
 .attr('data-intro','Past & new forks, current is highlighted.');
 $('form#comment-form h2')
-.attr('data-step','14')
-.attr('data-intro','Read & post feedback & notes here.');
+.attr('data-step','15')
+.attr('data-intro','Post feedback & notes here.');
 
 })();
