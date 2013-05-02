@@ -39,7 +39,7 @@ $('section:contains("Preparation code output")')
 $('button#run')
 .attr('data-step','4')
 .attr('data-position','left')
-.attr('data-intro','Clicky, toggles into pause button.');
+.attr('data-intro','Clicky, toggles into pause button.....');
 $('span#user-agent')  //caption:contains("Testing in")
 .attr('data-step','5')
 .attr('data-position','top')
@@ -47,9 +47,9 @@ $('span#user-agent')  //caption:contains("Testing in")
 
 $('tbody')
 .attr('data-step','6')
-.attr('data-position','top')
+//.attr('data-position','top')  TODO introjs bug, scrolls to bottom
 .attr('data-intro','Test listing; must be here to run.');
-$('tr#title-1')
+$('#title-1 div')
 .attr('data-step','7')
 .attr('data-intro','Test title used in results.  Click to run only this test.');
 
