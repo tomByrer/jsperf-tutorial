@@ -1,0 +1,43 @@
+#btnCorner a {
+	background: #000; /*IE8 fallback*/
+	background: rgba(0,0,0,0.3);
+  color: #fff;
+	color: rgba(255,255,255,0.7)
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 30px;
+	font-size: 1rem;
+	line-height: 2rem;
+	position: relative;
+	transition: 0.3s;
+}
+
+#btnCorner a:hover {
+	background: #060;
+	color: #fff;
+}
+
+@media screen{
+	#btnCorner {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		width: 200px;
+		overflow: hidden;
+		height: 200px;
+	}
+
+	#btnCorner a {
+		width: 140px;
+		position: absolute;
+		top: 20px;
+		right: -55px;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);   /*IE9 only*/
+		box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+	};
+};
