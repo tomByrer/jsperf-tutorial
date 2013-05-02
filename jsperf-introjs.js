@@ -26,4 +26,13 @@ fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-introjs/mast
 document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
+// inserts data attributes
+// TODO transform into JSON system
+var eleName = 'div';
+var containsName = 'Preparation';
+var findName = eleName + ':contains("' + containsName + '")';
+$(findName)
+.attr('data-step','1')
+.attr('data-intro','In here, load libraries, set up global variables & methods, enter large test scripts as a function.  Ran once at start of test.');
+
 })();
