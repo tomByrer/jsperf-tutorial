@@ -54,7 +54,7 @@ $('div:contains("teardown")')
 $('#tests fieldset:nth-child(2) div:nth-child(2)')
 .attr('data-step','10')
 .attr('data-intro','Protip: short names are better to read in result key.');
-$('textarea#test[1][code]')
+$('a:contains("no need")')
 .attr('data-step','11')
 .attr('data-intro','This is what gets looped.  Protip: Keep this code < 5 lines; use Prep HTML entry above for longer scripts.');
 $('.submit')
