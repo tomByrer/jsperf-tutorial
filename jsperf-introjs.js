@@ -43,10 +43,10 @@ $('span#user-agent')  //caption:contains("Testing in")
 .attr('data-step','5')
 .attr('data-intro','User-Agent header');
 
-$('tr')
+$('tbody')
 .attr('data-step','6')
-.attr('data-intro','Single test');
-$('th')
+.attr('data-intro','Test listing; must be here to run.');
+$('tr#title-1')
 .attr('data-step','7')
 .attr('data-intro','Test title used in results.  Click to run only this test.');
 
