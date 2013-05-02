@@ -36,7 +36,7 @@ $('p:contains("created")')
 // $('section:contains("<h2>Preparation code output</h2>")')
 // .attr('data-step','3')
 // .attr('data-intro',"User's HTML & JS entry; load libs, build test functions.");
-$('button:contains("Run Tests")')
+$('button' '#Run Tests')
 .attr('data-step','2')
 .attr('data-intro','Clicky');
 
