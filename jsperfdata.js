@@ -1,7 +1,7 @@
 /*! jsPerf-introjs | (c)2013 tomByrer released mozilla.org/MPL/2.0/ */
 // inserts data attributes
 // TODO transform into JSON system
-$(document).ready(function() {
+;(function(){
 
 		var eleName = 'div';
 		var containsName = 'Preparation';
