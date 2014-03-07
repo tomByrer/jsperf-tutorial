@@ -25,7 +25,7 @@ $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="ja
 
 $('a:contains("test cases")')
 .attr('data-step','1')
-.attr('data-intro','Link to browse & search others published tests.  Protip: Search before posting; chance your test idea already exists!');
+.attr('data-intro','Link to browse & search others published tests.  Protip: Search & <a href="http://www.youtube.com/watch?v=RLbAKxCAdI8">Bynens's video</a> before posting.');
 $('fieldset:nth-child(1)')
 .attr('data-step','2')
 .attr('data-intro','Entries here saved in browser.  Helpful when you need find your old tests, or revise a recent case.');
