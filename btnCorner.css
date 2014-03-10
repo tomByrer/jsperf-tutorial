@@ -19,7 +19,7 @@
 	color: #fff;
 }
 
-.introjs-button:active, .introjs-button:hover {
+.introjs-button {
 	background: #1A6AB9 !important;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
 	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9) !important;
