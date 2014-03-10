@@ -3,7 +3,7 @@
 ;(function(){
 //load scripts
 $.ajax({
-url: "https://rawgithub.com/usablica/intro.js/master/minified/intro.min.js",
+url: "//cdn.jsdelivr.net/intro.js/0.6.0/introjs.min.js",
 type: "GET",
 dataType: "script",
 cache: true
@@ -11,7 +11,7 @@ cache: true
 var fileref=document.createElement("link")
 fileref.setAttribute("rel", "stylesheet")
 fileref.setAttribute("type", "text/css")
-fileref.setAttribute("href", 'https://rawgithub.com/usablica/intro.js/master/minified/introjs.min.css')
+fileref.setAttribute("href", '//cdn.jsdelivr.net/intro.js/0.6.0/introjs.min.css')
 document.getElementsByTagName("head")[0].appendChild(fileref)
 fileref=document.createElement("link") //fileref needs to be rebuilt for atleast FF20
 fileref.setAttribute("rel", "stylesheet")
