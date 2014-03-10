@@ -3,7 +3,7 @@
 ;(function(){
 //load scripts
 $.ajax({
-url: "//cdn.jsdelivr.net/intro.js/0.6.0/introjs.min.js",
+url: "//cdn.jsdelivr.net/intro.js/0.6.0/intro.min.js",
 type: "GET",
 dataType: "script",
 cache: true
