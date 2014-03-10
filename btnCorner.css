@@ -22,7 +22,7 @@
 .introjs-button:active, .introjs-button:hover {
 	background: #1A6AB9;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9));
-	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9)}; 
+	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9); 
 }
 
 @media screen{
