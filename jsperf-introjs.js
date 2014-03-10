@@ -44,7 +44,7 @@ $('div:contains("Preparation")')
 .attr('data-intro','In here, load libraries, set up global variables & methods, enter large test scripts as a function.  Ran once at page load.');
 $('#add-buttons')
 .attr('data-step','7')
-.attr('data-intro','Protip: do not use; outdated.  Link CDNs from Google/cdnjs/jsdelivr, dropbox, or in emergency rawgithub.com.');
+.attr('data-intro','Protip: do not use; <a href="https://github.com/mathiasbynens/jsperf.com/issues/167#issue-29073408" target="_blank">outdated</a>.  Link CDNs from Google/<a href="http://cdnjs.com/" target="_blank">cdnjs</a>/<a href="http://www.jsdelivr.com/" target="_blank">jsDelivr</a>, dropbox, or in emergency <a href="http://rawgithub.com/" target="_blank">rawgithub.com</a>.');
 $('div:contains("setup")')
 .attr('data-step','8')
 .attr('data-intro','Ran before each test starts; helpful for reseting arrays that have been changed, etc.');
