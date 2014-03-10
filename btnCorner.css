@@ -23,10 +23,9 @@
 	background: #1A6AB9 !important;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
 	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9) !important;
-	color: #000 !important;
 }
 
-introjs-nextbutton:active {
+.introjs-nextbutton:active {
 	background: #1AB930 !important;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#91FFA0),to(#1AB930)) !important;
 	background-image: linear-gradient(center top , #91FFA0, #1AB930) !important;
