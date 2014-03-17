@@ -8,7 +8,7 @@ A bookmarklet to hack in a tutorial for [jsPerf](http://jsperf.com) using [Intro
 1. Go to the [add new test page](http://jsperf.com), or enter `/edit` after an existing test.
 
 2: Add bookmarklet manually:
-`(function(){var%20e=document.createElement("SCRIPT");e.type="text/javascript";e.src="https://rawgithub.com/tomByrer/CDNsneaker/master/jsPerf/s.js";document.getElementsByTagName("body")[0].appendChild(e)})();`
+`(function(){var%20e=document.createElement("SCRIPT");e.type="text/javascript";e.src="https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.js";document.getElementsByTagName("body")[0].appendChild(e)})();`
 
 3: Run bookmarklet.
 
