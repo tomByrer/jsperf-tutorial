@@ -16,7 +16,7 @@ document.getElementsByTagName("head")[0].appendChild(fileref)
 fileref=document.createElement("link") //fileref needs to be rebuilt for atleast FF20
 fileref.setAttribute("rel", "stylesheet")
 fileref.setAttribute("type", "text/css")
-fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-introjs/master/btnCorner.css')
+fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-tutorial/master/btnCorner.css')
 document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
