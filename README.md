@@ -12,7 +12,7 @@ A bookmarklet to hack in a tutorial for [jsPerf](http://jsperf.com) using [Intro
 
 3: Run bookmarklet.
 
-4: After a few seconds, at the upper-right hand corner of the page, you'll see a "Run tutorial." banner.  Click that to run the tutorial.  [Enter] key or the [Next] button will step you though. 
+4: After a few seconds, at the upper-right hand corner of the page, you'll see a "Run tutorial." banner.  Click that to run the tutorial.  Use the [Enter] key or the [Next] button to step though the tutorial. 
 
 
 ## ToDo
