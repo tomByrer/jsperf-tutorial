@@ -1,15 +1,17 @@
-/*! github.com/tomByrer/jsperf-tutorial 0.5.0 (c)2014; MIT licence */
+/*! github.com/tomByrer/jsperf-tutorial 0.5.1 (c)2014; MIT licence */
 
 .introjs-button {
 	background: #6ca5dd !important;
 	text-shadow: none !important;
-	font-size: 13px !important;
+	font-size: 14px !important;
 	color: #eee !important;
+}
+.introjs-button:active, .introjs-button:hover {
+	color: #000 !important;
+	text-shadow: none !important;
 }
 .introjs-nextbutton:active, .introjs-nextbutton:hover {
 	background: #91ffa0 !important;
-	color: #000 !important;
-	text-shadow: none !important;
 }
 
 #btnCorner {
