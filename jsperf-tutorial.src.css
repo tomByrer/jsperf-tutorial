@@ -1,4 +1,4 @@
-/*! github.com/tomByrer/jsperf-tutorial 0.3.0 (c)2014; MIT licence */
+/*! github.com/tomByrer/jsperf-tutorial 0.4.0 (c)2014; MIT licence */
 
 #btnCorner a {
 	background: #000; /*IE8 fallback*/
@@ -26,6 +26,8 @@
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
 	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9) !important;
 	text-shadow: none !important;
+	font: 13px !important;
+	color: #ccc !important;
 }
 
 .introjs-nextbutton:active, .introjs-nextbutton:hover {

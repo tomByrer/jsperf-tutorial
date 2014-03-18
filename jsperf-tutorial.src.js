@@ -21,8 +21,6 @@ document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
 // inserts data attributes
-// TODO transform into JSON system
-
 $('a:contains("test cases")')
 .attr('data-step','1')
 .attr('data-intro','Link to browse & search others published tests.  Protip: Search & <a href=http://www.youtube.com/watch?v=RLbAKxCAdI8>Bynens video</a> before posting.');

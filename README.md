@@ -19,6 +19,7 @@ A bookmarklet to hack in a tutorial for [jsPerf](http://jsperf.com) using [Intro
 
 * fix CSS
 * teach links on bottom
+* transform into JSON system
 
 ## Licence
 
