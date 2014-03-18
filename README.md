@@ -7,7 +7,7 @@ If you don't know, jsPerf is a croud-sourced JavaScript speed tests; helpful if 
 
 ## Usage
 
-1. Add bookmarklet manually to your bookmarks toolbar: `javascript:(function(){var%20e=document.createElement("SCRIPT");e.type="text/javascript";e.src="https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.js";document.getElementsByTagName("body")[0].appendChild(e)})();`
+1. Add bookmarklet manually to your bookmarks toolbar: `javascript:(function(){var%20e=document.createElement("SCRIPT");e.type="text/javascript";e.src="https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.js";document.getElementsByTagName("body")[0].appendChild(e)})();`
 (For Android, you might have to `%20` for an actual space.)
 2. Go to the [add new test page | http://jsperf.com/](http://jsperf.com), or enter `/edit` after an existing test.
 3. Run bookmarklet from your toolbar.
