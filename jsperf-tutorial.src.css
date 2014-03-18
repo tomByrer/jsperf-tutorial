@@ -1,3 +1,5 @@
+/*! github.com/tomByrer/jsperf-tutorial 0.3.0 (c)2014; MIT licence */
+
 #btnCorner a {
 	background: #000; /*IE8 fallback*/
 	background: rgba(0,0,0,0.3);

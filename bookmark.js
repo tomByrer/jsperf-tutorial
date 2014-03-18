@@ -1,1 +1,1 @@
-(function(){var jsL=document.createElement('SCRIPT');jsL.type='text/javascript';jsL.src='https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.js';document.getElementsByTagName('body')[0].appendChild(jsL);})();
+(function(){var jsL=document.createElement('SCRIPT');jsL.type='text/javascript';jsL.src='https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.js';document.getElementsByTagName('body')[0].appendChild(jsL);})();

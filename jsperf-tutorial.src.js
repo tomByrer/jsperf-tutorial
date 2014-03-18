@@ -1,4 +1,4 @@
-/*! jsPerf-introjs | (c)2013 tomByrer released mozilla.org/MPL/2.0/ */
+/*! github.com/tomByrer/jsperf-tutorial 0.3.0 (c)2014; MIT licence */
 // readies http://jsperf.com/ for intro.js
 ;(function(){
 //load scripts
@@ -16,7 +16,7 @@ document.getElementsByTagName("head")[0].appendChild(fileref)
 fileref=document.createElement("link") //fileref needs to be rebuilt for atleast FF20
 fileref.setAttribute("rel", "stylesheet")
 fileref.setAttribute("type", "text/css")
-fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-tutorial/master/btnCorner.css')
+fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.css')
 document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
