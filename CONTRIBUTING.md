@@ -1,11 +1,13 @@
 # How to help jsperf-tutorial
 
-Best ways too submit ideas & bug fixes:
+Best ways to submit ideas & bug fixes:
 1. Fork, & in the PR comment add your bookmarklet to your repo.  Please don't send in a PR until I ask.
 2. Or, write an Issue with these details:
 	* OS, browsers & version (note the plural in browsers; please test in more than one).
 	* problems / ideas, with your expected results
 	* shrunk / edited screenshots if you can
+
+I can always use help with my [ToDo backlog](https://github.com/tomByrer/jsperf-tutorial#todo).
 
 ## Minifed Warning
 `jsperf-tutorial.js` & `jsperf-tutorial.css` are the released minified versions.  They are what I test before bumping version & sending to CDN.
