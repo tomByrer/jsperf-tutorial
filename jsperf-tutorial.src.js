@@ -1,5 +1,6 @@
 /*! github.com/tomByrer/jsperf-tutorial 0.5.0 (c)2014; MIT licence */
 // readies http://jsperf.com/ for intro.js
+
 ;(function(){
 //load scripts
 $.ajax({
