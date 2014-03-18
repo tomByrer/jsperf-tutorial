@@ -1,4 +1,4 @@
-/*! github.com/tomByrer/jsperf-tutorial 0.3.0 (c)2014; MIT licence */
+/*! github.com/tomByrer/jsperf-tutorial 0.5.0 (c)2014; MIT licence */
 // readies http://jsperf.com/ for intro.js
 ;(function(){
 //load scripts
@@ -45,7 +45,7 @@ $('#add-buttons')
 .attr('data-intro','Protip: do not use; <a href="https://github.com/mathiasbynens/jsperf.com/issues/167#issue-29073408" target="_blank">outdated</a>.  Link CDNs from Google/<a href="http://cdnjs.com/" target="_blank">cdnjs</a>/<a href="http://www.jsdelivr.com/" target="_blank">jsDelivr</a>, dropbox, or in emergency <a href="http://rawgithub.com/" target="_blank">rawgithub.com</a>.');
 $('div:contains("setup")')
 .attr('data-step','8')
-.attr('data-intro','Ran before each test starts; helpful for reseting arrays that have been changed, etc.');
+.attr('data-intro','Ran before each test starts; helpful for resetting arrays that have been changed, etc.');
 $('div:contains("teardown")')
 .attr('data-step','9')
 .attr('data-intro','Ran after each test ends; helpful to remove junk that the tests create.');

@@ -18,8 +18,10 @@ A bookmarklet to hack in a tutorial for [jsPerf](http://jsperf.com) using [Intro
 ## ToDo
 
 * fix CSS
+	* button:active highlight
 * teach links on bottom
 * transform into JSON system
+* fix then add tutorial for the run-test page
 
 ## Licence
 

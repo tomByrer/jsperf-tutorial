@@ -1,17 +1,13 @@
-/*! github.com/tomByrer/jsperf-tutorial 0.4.0 (c)2014; MIT licence */
+/*! github.com/tomByrer/jsperf-tutorial 0.5.0 (c)2014; MIT licence */
 
 .introjs-button {
-	background: #1A6AB9 !important;
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
-	background-image: linear-gradient(center top, #6CA5DD, #1A6AB9) !important;
+	background: #6ca5dd !important;
 	text-shadow: none !important;
 	font-size: 13px !important;
 	color: #eee !important;
 }
 .introjs-nextbutton:active, .introjs-nextbutton:hover {
-	background: #1AB930 !important;
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#91FFA0),to(#1AB930)) !important;
-	background-image: linear-gradient(center top, #91FFA0, #1AB930) !important;
+	background: #91ffa0 !important;
 	color: #000 !important;
 	text-shadow: none !important;
 }
