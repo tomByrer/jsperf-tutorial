@@ -1,5 +1,30 @@
 /*! github.com/tomByrer/jsperf-tutorial 0.4.0 (c)2014; MIT licence */
 
+.introjs-button {
+	background: #1A6AB9 !important;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
+	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9) !important;
+	text-shadow: none !important;
+	font-size: 13px !important;
+	color: #ccc !important;
+}
+.introjs-nextbutton:active, .introjs-nextbutton:hover {
+	background: #1AB930 !important;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#91FFA0),to(#1AB930)) !important;
+	background-image: linear-gradient(center top , #91FFA0, #1AB930) !important;
+	color: #000 !important;
+	text-shadow: none !important;
+}
+
+#btnCorner {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	width: 200px;
+	overflow: hidden;
+	height: 200px;
+}
 #btnCorner a {
 	background: #000; /*IE8 fallback*/
 	background: rgba(0,0,0,0.3);
@@ -12,51 +37,17 @@
 	padding: 5px 30px;
 	font-size: 1rem;
 	line-height: 2rem;
-	position: relative;
 	transition: 0.3s;
+	width: 140px;
+	position: absolute;
+	top: 20px;
+	right: -55px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);   /*IE9 only*/
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
 }
-
 #btnCorner a:hover {
 	background: #060;
 	color: #fff;
 }
-
-.introjs-button {
-	background: #1A6AB9 !important;
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#6CA5DD),to(#1A6AB9)) !important;
-	background-image: linear-gradient(center top , #6CA5DD, #1A6AB9) !important;
-	text-shadow: none !important;
-	font: 13px !important;
-	color: #ccc !important;
-}
-
-.introjs-nextbutton:active, .introjs-nextbutton:hover {
-	background: #1AB930 !important;
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#91FFA0),to(#1AB930)) !important;
-	background-image: linear-gradient(center top , #91FFA0, #1AB930) !important;
-	color: #000 !important;
-	text-shadow: none !important;
-}
-
-@media screen{
-	#btnCorner {
-		position: absolute;
-		display: block;
-		top: 0;
-		right: 0;
-		width: 200px;
-		overflow: hidden;
-		height: 200px;
-	}
-
-	#btnCorner a {
-		width: 140px;
-		position: absolute;
-		top: 20px;
-		right: -55px;
-		transform: rotate(45deg);
-		-webkit-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);   /*IE9 only*/
-		box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
-	};
-};
