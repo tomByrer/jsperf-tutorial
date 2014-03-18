@@ -23,7 +23,7 @@ $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="ja
 // inserts data attributes
 $('a:contains("test cases")')
 .attr('data-step','1')
-.attr('data-intro','Link to browse & search others published tests.  Protip: Search & <a href=http://www.youtube.com/watch?v=RLbAKxCAdI8>Bynens video</a> before posting.');
+.attr('data-intro','Link to browse & search others published tests.  Protip: <a href="http://jsperf.com/browse" target="_blank">Search</a> & <a href=http://www.youtube.com/watch?v=RLbAKxCAdI8>watch Bynens video</a> before posting.');
 $('fieldset:nth-child(1)')
 .attr('data-step','2')
 .attr('data-intro','Entries here saved in browser.  Helpful when you need find your old tests, or revise a recent case.');
@@ -54,62 +54,9 @@ $('#tests fieldset:nth-child(2) div:nth-child(2)')
 .attr('data-intro','Protip: short names are better to read in result key.');
 $('#tests fieldset:nth-child(2) div:nth-child(4)')
 .attr('data-step','11')
-.attr('data-intro','This is what gets looped.  Protip: Keep this code < 5 lines; use Prep HTML entry above for longer scripts.');
+.attr('data-intro','This is what gets looped.  Protip: Keep this code < 5 lines; use <b>Preparation code</b> above for longer scripts.');
 $('.submit')
 .attr('data-step','12')
-.attr('data-intro','Protip: check if you unchecked Published before saving.');
+.attr('data-intro','Protip: check if you unchecked <b>Published</b> before saving.');
 
-//test view
-$('p:contains("created")')
-.attr('data-step','1')
-.attr('data-intro','Age of test, & revision/version number if > 1.');
-$('section#prep-code')
-.attr('data-step','2')
-.attr('data-intro',"User's HTML & JS input; load libs, build test functions.");
-$('section:contains("Preparation code output")')
-.attr('data-step','3')
-.attr('data-intro',"HTML output, if there is any");
-$('button#run')
-.attr('data-step','4')
-.attr('data-intro','Clicky, toggles into pause button.');
-$('span#user-agent')  //caption:contains("Testing in")
-.attr('data-step','5')
-.attr('data-position','top')
-.attr('data-intro','User-Agent header');
-
-$('tbody')
-.attr('data-step','6')
-//.attr('data-position','top')  TODO introjs bug, scrolls to bottom
-.attr('data-intro','Test listing; must be here to run.');
-$('#title-1 div')
-.attr('data-step','7')
-.attr('data-intro','Test title used in results.  Click to run only this test.  Protip: Keep short.');
-$('tr:nth-child(1) pre')
-.attr('data-step','8')
-.attr('data-intro','The actual javascript to run.  Protip: Keep below 5 lines; use a function or 2.');
-$('#results-1')
-.attr('data-step','9')
-.attr('data-intro','"Ready" if test not ran recently, or results afterwards (but go with browserscope average).');
-
-$('div#bs-results')
-.attr('data-step','10')
-.attr('data-intro','Averaged output of all tests on this page.  Mouse over bars for details.');
-$('#charts a:nth-child(6)')
-.attr('data-step','11')
-.attr('data-intro','Select "Table" for only the numbers.');
-
-$('#charts a:nth-child(6)')
-.attr('data-step','12')
-.attr('data-intro','Select Table to get numeric results.  Protip: copy/paste to archive results.');
-$('section:contains("Revisions") p a')
-.attr('data-step','13')
-.attr('data-intro','Click to fork.');
-$('ul')
-.attr('data-step','14')
-.attr('data-intro','Past & new forks, current is highlighted.');
-$('form#comment-form h2')
-.attr('data-step','15')
-.attr('data-intro','Post feedback & notes here.');
-
-introJs().setOption("skipLabel", "Exit")
 })();
