@@ -19,7 +19,7 @@ fileref.setAttribute("type", "text/css")
 fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.css')
 document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
-$('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().setOption("skipLabel", "Exit").start();">Run tutorial.</a></span>');
+$('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start().setOption("skipLabel", "Exit");">Run tutorial.</a></span>');
 // inserts data attributes
 $('a:contains("test cases")')
 .attr('data-step','1')
