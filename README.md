@@ -5,9 +5,11 @@ A bookmarklet to run a tutorial on [jsPerf.com](http://jsperf.com) homepage usin
 
 If you don't know, jsPerf is a croud-sourced JavaScript speed test site.  It is helpful if you want to benchmark one function against another or find new, faster methods.  *Disclaimer:*  This project is not connected to jsPerf or maintainers.
 
-## [Usage](http://tombyrer.github.io/jsperf-tutorial/#usage)
+## Usage
 
 Tested on Windows Firefox, Chrome, IE10.
+
+Graphical instructions at [http://tombyrer.github.io/jsperf-tutorial/](http://tombyrer.github.io/jsperf-tutorial/#usage)
 
 1. Add bookmarklet to your bookmarks toolbar ("Favourites" in IE): `javascript:(function(){var%20e=document.createElement("SCRIPT");e.type="text/javascript";e.src="//tombyrer.github.io/jsperf-tutorial/jsperf-tutorial.js";document.getElementsByTagName("body")[0].appendChild(e)})();`
 (For Android, you might have to `%20` for an actual space.)
