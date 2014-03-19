@@ -1,4 +1,4 @@
-jsperf-tutorial
+[jsperf-tutorial](http://tombyrer.github.io/jsperf-tutorial/)
 ==============
 
 A bookmarklet to run a tutorial on [jsPerf.com](http://jsperf.com) homepage using [Intro.js](http://usablica.github.io/intro.js/).
