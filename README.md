@@ -3,7 +3,7 @@
 
 A bookmarklet to run a tutorial on [jsPerf.com](http://jsperf.com) homepage using [Intro.js](http://usablica.github.io/intro.js/).
 
-If you don't know, jsPerf is a croud-sourced JavaScript speed tests; helpful if you want to benchmark one function against another.  *Disclaimer:*  This project is not connected to jsPerf or maintainers.
+If you don't know, jsPerf is a croud-sourced JavaScript speed test site.  It is helpful if you want to benchmark one function against another or find new, faster methods.  *Disclaimer:*  This project is not connected to jsPerf or maintainers.
 
 ## [Usage](http://tombyrer.github.io/jsperf-tutorial/#usage)
 
