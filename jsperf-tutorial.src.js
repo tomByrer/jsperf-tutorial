@@ -24,7 +24,7 @@ $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="ja
 // inserts data attributes
 $('a:contains("test cases")')
 .attr('data-step','1')
-.attr('data-intro','Link to browse & search others published tests.  Protip: <a href="http://jsperf.com/browse" target="_blank">Search</a> & <a href=http://www.youtube.com/watch?v=RLbAKxCAdI8>watch Bynens video</a> before posting.');
+.attr('data-intro','Link to browse & search others published tests.  Protip: <a href="http://jsperf.com/browse" target="_blank">Search</a> & <a href=http://www.youtube.com/watch?v=RLbAKxCAdI8>watch Bynens video</a> & <a href=http://mrale.ph/blog/2014/02/23/the-black-cat-of-microbenchmarks.html>Egorov&#39;s warning</a> before posting.');
 $('fieldset:nth-child(1)')
 .attr('data-step','2')
 .attr('data-intro','Entries here saved in browser.  Helpful when you need find your old tests, or revise a recent case.');
