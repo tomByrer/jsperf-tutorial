@@ -1,4 +1,4 @@
-/*! github.com/tomByrer/jsperf-tutorial 0.5.0 (c)2014; MIT licence */
+/*! github.com/tomByrer/jsperf-tutorial 0.5.2 (c)2014-2015; MIT licence */
 // readies http://jsperf.com/ for intro.js
 
 ;(function(){
