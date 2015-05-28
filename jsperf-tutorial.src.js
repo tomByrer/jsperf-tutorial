@@ -17,7 +17,7 @@ document.getElementsByTagName("head")[0].appendChild(fileref)
 fileref=document.createElement("link") //fileref needs to be rebuilt for atleast FF20
 fileref.setAttribute("rel", "stylesheet")
 fileref.setAttribute("type", "text/css")
-fileref.setAttribute("href", 'https://rawgithub.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.css')
+fileref.setAttribute("href", 'https://rawgit.com/tomByrer/jsperf-tutorial/master/jsperf-tutorial.src.css')
 document.getElementsByTagName("head")[0].appendChild(fileref)
 //+ button
 $('body').append('<span id="btnCorner"><a href="javascript:void(0);" onclick="javascript:introJs().start();">Run tutorial.</a></span>');
@@ -43,7 +43,7 @@ $('div:contains("Preparation")')
 .attr('data-intro','In here, load libraries, set up global variables & methods, enter large test scripts as a function.  Ran once at page load.');
 $('#add-buttons')
 .attr('data-step','7')
-.attr('data-intro','Protip: do not use; <a href="https://github.com/mathiasbynens/jsperf.com/issues/167#issue-29073408" target="_blank">outdated</a>.  Link CDNs from Google/<a href="http://cdnjs.com/" target="_blank">cdnjs</a>/<a href="http://www.jsdelivr.com/" target="_blank">jsDelivr</a>, dropbox, or in emergency <a href="http://rawgithub.com/" target="_blank">rawgithub.com</a>.');
+.attr('data-intro','Protip: do not use; <a href="https://github.com/mathiasbynens/jsperf.com/issues/167#issue-29073408" target="_blank">outdated</a>.  Link CDNs from Google/<a href="http://cdnjs.com/" target="_blank">cdnjs</a>/<a href="http://www.jsdelivr.com/" target="_blank">jsDelivr</a>, dropbox, or in emergency <a href="http://rawgit.com/" target="_blank">rawgit.com</a>.');
 $('div:contains("setup")')
 .attr('data-step','8')
 .attr('data-intro','Ran before each test starts; helpful for resetting arrays that have been changed, etc.');
